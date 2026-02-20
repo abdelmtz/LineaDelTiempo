@@ -1,0 +1,78 @@
+h1 {
+text-align: center;
+font-size: 60px;
+color: black;
+margin-bottom: 150px;
+}
+.viajar{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold; 
+    text-align: center;
+}
+.viajar:hover {
+    color: #000;
+    background: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+body { background: linear-gradient(140deg, #ffffff, #00ffb3); 
+    text-align: center; 
+    color: black; 
+    min-height: 700px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+ul { 
+    list-style: none; 
+    padding: 0; 
+}
+.imagena {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+    font-size: 18px;     
+    line-height: 1.5;    
+}
+.tarjeta {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 12px;                  
+    padding: 30px;                        
+    margin: 20px auto;                    
+    width: 80%;                           
+    max-width: 700px;                     
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.tarjeta p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+a {
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.imgs{
+    width: 80px; 
+    height:auto; 
+    padding: 0px 10px;
+    position: relative;
+    top: 18px;
+}
+
+.bot{
+    font-size: 10px;
+    color: red;
+
+}
+.bot:hover{
+    background-color: gray;
+    opacity: 50%;
+    font-size: 15px;
+}
